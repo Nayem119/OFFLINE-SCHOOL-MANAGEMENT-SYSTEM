@@ -1,534 +1,922 @@
-# 🏫 OFFLINE SCHOOL MANAGEMENT SYSTEM
+# 🏫 Offline School Management System
 
-## 🔐 পেশাদার মালিকানাধীন সফটওয়্যার লাইসেন্স
-
-**License Version:** 1.0  
-**কার্যকর তারিখ:** ২৫ আগস্ট ২০২৬  
-**কপিরাইট:** © ২০২৬ Nayem Ahammad  
-**সর্বস্বত্ব সংরক্ষিত।**
+> একটি আধুনিক, শক্তিশালী এবং সম্পূর্ণ **Offline School Management Desktop Application**, যা স্কুলের শিক্ষার্থী, শিক্ষক, কর্মচারী, উপস্থিতি, ফি, পরীক্ষা, ফলাফল, রিপোর্ট এবং ডেটা ম্যানেজমেন্ট সহজ করার জন্য তৈরি করা হয়েছে।
 
 ---
 
-## 📌 লাইসেন্সের সংক্ষিপ্ত পরিচয়
+## 🚀 Project Overview
 
-**Offline School Management System** একটি **Proprietary / Closed-Source Desktop Software**।
+**Offline School Management System** হলো একটি Python-based Desktop Application যা সম্পূর্ণভাবে **Offline Mode**-এ কাজ করার জন্য ডিজাইন করা হয়েছে।
 
-এই Software-এর:
+এই সফটওয়্যারের মাধ্যমে একটি স্কুলের দৈনন্দিন প্রশাসনিক ও একাডেমিক কার্যক্রম একটি কেন্দ্রীয় সিস্টেম থেকে পরিচালনা করা যাবে।
 
-- Source Code
-- Application Architecture
-- Database Structure
-- User Interface
-- UI/UX Design
-- Graphics
-- SVG Icons
-- Templates
-- Documentation
-- Branding
-- Original Assets
+### ✨ মূল বৈশিষ্ট্য
 
-এর মেধাস্বত্ব ও মালিকানা **Nayem Ahammad**-এর।
-
-এই License কোনো ব্যবহারকারীকে Software-এর মালিকানা প্রদান করে না। এটি শুধুমাত্র নির্দিষ্ট শর্তে Software ব্যবহারের অনুমতি প্রদান করে।
+- 🖥️ সম্পূর্ণ Offline Desktop Application
+- 🇧🇩 বাংলা-বান্ধব Interface
+- 👨‍🎓 Student Management
+- 👨‍🏫 Teacher Management
+- 👨‍💼 Staff Management
+- 📅 Attendance Management
+- 💰 Fees & Payment Management
+- 📝 Examination Management
+- 🎓 Result & GPA Calculation
+- 📊 Reports & Analytics
+- 📄 CSV / Excel Export
+- 🖨️ Print-ready Reports
+- 💾 SQLite Database
+- 🔐 User Management
+- 💾 Database Backup & Restore
+- 🎓 Certificate Generation
 
 ---
 
-# ১. 👨‍💻 Copyright & Ownership
+# 🛠️ Technology Stack
 
-এই Software-এর সকল মূল Intellectual Property Rights-এর মালিক:
+| Technology | Usage |
+|---|---|
+| 🐍 Python | Main Programming Language |
+| 🖼️ Tkinter | Desktop User Interface |
+| 🗄️ SQLite | Offline Database |
+| 📊 OpenPyXL | Excel Export |
+| 📄 CSV | Data Export |
+| 🖨️ Tkinter Print View | Print-ready Reports |
+| 💾 PyInstaller | EXE Build |
+| 📦 Inno Setup | Windows Installer |
 
-## **Nayem Ahammad**
+---
 
-Copyright:
+# 📁 Project Structure
 
 ```text
-Copyright © 2026 Nayem Ahammad.
-All Rights Reserved.
+Offline_School_Management_System/
+│
+├── main.py
+├── app.py
+├── README.md
+├── LICENSE
+│
+├── database/
+│   ├── db.py
+│   └── school.db
+│
+├── ui/
+│   ├── login.py
+│   ├── dashboard.py
+│   ├── students.py
+│   ├── teachers.py
+│   ├── staff.py
+│   ├── attendance.py
+│   ├── classes.py
+│   ├── users.py
+│   ├── fees.py
+│   ├── exams.py
+│   ├── reports.py
+│   ├── certificates.py
+│   └── settings.py
+│
+├── utils/
+│   └── helpers.py
+│
+├── assets/
+│   ├── icon.ico
+│   ├── logo.png
+│   │
+│   ├── icons/
+│   │
+│   └── images/
+│
+└── backups/
 ```
-
-বাংলায়:
-
-```text
-কপিরাইট © ২০২৬ Nayem Ahammad।
-সর্বস্বত্ব সংরক্ষিত।
-```
-
-Software ব্যবহার করার অনুমতি পাওয়া মানে Software-এর Copyright বা Ownership পাওয়া নয়।
 
 ---
 
-# ২. 🔑 License Grant — ব্যবহারের অনুমতি
+# 🚀 Phase 1 — Core Foundation System
 
-Developer বা Copyright Holder অনুমোদিত ব্যক্তি/প্রতিষ্ঠানকে Software ব্যবহারের জন্য সীমিত License প্রদান করতে পারেন।
+Phase 1-এ সফটওয়্যারের মূল ভিত্তি তৈরি করা হয়েছে।
 
-এই License হতে পারে:
+## 🔐 Authentication System
 
-- ব্যক্তিগত
-- শিক্ষা প্রতিষ্ঠানভিত্তিক
-- স্কুলভিত্তিক
-- প্রতিষ্ঠানভিত্তিক
-- Commercial
-- Enterprise
+- Admin Login
+- Username & Password
+- User Authentication
+- Secure Login Validation
+- Logout System
 
-License-এর ধরন অনুযায়ী ব্যবহারের সীমা আলাদা হতে পারে।
+## 👨‍🎓 Student Management
+
+- Student Add
+- Student View
+- Student Search
+- Student Information
+- Student ID
+- Class
+- Section
+- Roll Number
+- Phone Number
+- Address
+
+## 🏫 School Settings
+
+- School Name
+- School Address
+- Phone Number
+- School Information
+
+## 🗄️ Database
+
+- SQLite Database
+- Offline Data Storage
+- Automatic Database Initialization
+
+## 📊 Basic Dashboard
+
+- Total Students
+- Basic School Statistics
+- Quick Navigation
 
 ---
 
-# ৩. 🏫 School License
+# 🚀 Phase 2 — School Academic & Staff Management
 
-একটি School License সাধারণত একটি নির্দিষ্ট শিক্ষা প্রতিষ্ঠানের অভ্যন্তরীণ ব্যবহারের জন্য প্রদান করা যেতে পারে।
-
-উদাহরণ:
-
-```text
-School Name: Example High School
-License Type: School License
-Authorized Institution: Example High School
-```
-
-একটি School License স্বয়ংক্রিয়ভাবে অন্য স্কুল, প্রতিষ্ঠান বা Branch-এ Software ব্যবহারের অনুমতি দেয় না।
+Phase 2-এ Student Management আরও উন্নত করা হয়েছে এবং Teacher, Staff ও Attendance System যুক্ত করা হয়েছে।
 
 ---
 
-# ৪. 🖥️ Installation & Device Usage
+## 👨‍🎓 Advanced Student Management
 
-License Agreement-এ নির্ধারিত সংখ্যক Computer বা Device-এ Software ব্যবহার করা যাবে।
-
-যদি License-এ:
-
-```text
-1 School / 1 Installation
-```
-
-নির্ধারণ করা থাকে, তাহলে অতিরিক্ত স্কুল, Branch বা Installation-এর জন্য আলাদা অনুমতি বা License প্রয়োজন হতে পারে।
+- Student Add
+- Student Edit
+- Student Delete
+- Student Search
+- Student Photo
+- Student Information Update
+- Class & Section Management
 
 ---
 
-# ৫. ✅ অনুমোদিত ব্যবহার
+## 👨‍🏫 Teacher Management
 
-অনুমোদিত ব্যবহারকারী Software ব্যবহার করতে পারবেন:
+- Teacher Add
+- Teacher Edit
+- Teacher Delete
+- Teacher ID
+- Teacher Name
+- Subject
+- Phone
+- Email
+- Teacher Information
 
-- Student Management
-- Teacher Management
-- Class Management
+---
+
+## 👨‍💼 Staff Management
+
+- Staff Add
+- Staff Edit
+- Staff Delete
+- Staff ID
+- Designation
+- Phone
+- Email
+- Staff Information
+
+---
+
+## 📅 Attendance Management
+
+Attendance System:
+
+- 👨‍🎓 Student Attendance
+- 👨‍🏫 Teacher Attendance
+- 👨‍💼 Staff Attendance
+
+Attendance Status:
+
+- Present
+- Absent
+- Late
+- Leave
+
+---
+
+## 📚 Class & Section Management
+
+- Class Creation
 - Section Management
-- Subject Management
+- Student Class Assignment
+
+---
+
+## 👤 Better User Management
+
+- User Create
+- User Edit
+- User Activate / Deactivate
+- Username Management
+- Role Management
+
+---
+
+# 🚀 Phase 3 — Fees & Payment System
+
+Phase 3-এ সম্পূর্ণ Financial Management System যুক্ত করা হয়েছে।
+
+---
+
+## 💰 Fee Management
+
+সমর্থিত Fee Types:
+
+- Monthly Fee
+- Admission Fee
+- Exam Fee
+- Other Fee
+
+---
+
+## ⚙️ Fee Settings
+
+Admin পরিবর্তন করতে পারবেন:
+
+- Fee Name
+- Fee Amount
+- Fee Frequency
+- Fee Status
+
+---
+
+## 📌 Student-wise Due
+
+প্রতিটি Student-এর জন্য:
+
+- Due Amount
+- Fee Type
+- Due Date
+- Due Status
+- Due History
+
+---
+
+## 💳 Payment Collection
+
+- Student Payment
+- Fee Type Selection
+- Payment Amount
+- Payment Date
+- Notes
+
+---
+
+## 🧾 Money Receipt
+
+Automatic Receipt তৈরি হবে:
+
+```text
+================================================
+               SCHOOL NAME
+
+               MONEY RECEIPT
+================================================
+
+Receipt No : R-XXXXXXXX
+Date       : YYYY-MM-DD
+
+Student ID : ST-XXXX
+Student    : Student Name
+
+Fee Type   : Monthly Fee
+Amount     : 0000.00
+
+================================================
+```
+
+---
+
+## 📜 Payment History
+
+- Receipt Number
+- Student ID
+- Student Name
+- Payment Date
+- Fee Type
+- Payment Amount
+
+---
+
+## 📊 Financial Reports
+
+- Daily Collection
+- Monthly Collection
+- Payment History
+- Student-wise Due
+- Outstanding Fees
+
+---
+
+# 🚀 Phase 4 — Examination & Result Management
+
+Phase 4-এ সম্পূর্ণ Examination ও Result Management System যুক্ত করা হয়েছে।
+
+---
+
+## 📝 Exam Management
+
+- Create Exam
+- Exam Name
+- Exam Type
+- Class
+- Section
+- Exam Date
+
+---
+
+## 📚 Exam Types
+
+সমর্থিত Exam Types:
+
+- Test
+- Monthly Exam
+- Midterm
+- Final
+- Model Test
+- Other Exam
+
+---
+
+## 📖 Subject Management
+
+প্রতিটি Subject-এর জন্য:
+
+- Subject Code
+- Subject Name
+- Full Marks
+- Pass Marks
+- Active / Inactive Status
+
+---
+
+## 🧮 Marks Entry
+
+- Student ID
+- Exam Selection
+- Subject Selection
+- Marks Entry
+- Marks Update
+
+---
+
+## ✏️ Marks Management
+
+- Add Marks
+- Edit Marks
+- Update Marks
+- Delete Marks
+
+---
+
+## 📊 Automatic Result Calculation
+
+সফটওয়্যার স্বয়ংক্রিয়ভাবে হিসাব করবে:
+
+- Total Marks
+- Full Marks
+- Percentage
+- Grade
+- GPA
+- Pass / Fail
+
+---
+
+## 🎓 Grade System
+
+| Percentage | Grade | GPA |
+|---|---|---|
+| 80+ | A+ | 5.00 |
+| 70–79 | A | 4.00 |
+| 60–69 | A- | 3.50 |
+| 50–59 | B | 3.00 |
+| 40–49 | C | 2.00 |
+| 33–39 | D | 1.00 |
+| Below 33 | F | 0.00 |
+
+---
+
+## 👨‍🎓 Student-wise Result
+
+একজন শিক্ষার্থীর জন্য:
+
+- Subject-wise Marks
+- Total Marks
+- Percentage
+- Grade
+- GPA
+- Pass / Fail
+
+---
+
+## 📋 Class-wise Result
+
+- Student Ranking
+- Total Marks
+- Percentage
+- Grade
+- Class Performance
+
+---
+
+## 🧾 Report Card
+
+Print-ready Report Card:
+
+```text
+================================================
+                REPORT CARD
+================================================
+
+Student Name
+Student ID
+Class
+Section
+
+Subject-wise Marks
+
+Total Marks
+Percentage
+Grade
+GPA
+Result
+
+================================================
+```
+
+---
+
+## 🔎 Result Search
+
+- Search by Student ID
+- Search by Exam
+- Student Result View
+- Class Result View
+
+---
+
+# 🚀 Phase 5 — Reports, Export, Backup & Professional Features
+
+Phase 5-এ সফটওয়্যারকে আরও Professional এবং Production-ready করার জন্য Reporting ও Backup System যুক্ত করা হয়েছে।
+
+---
+
+# 📊 Advanced Reports
+
+## 👨‍🎓 Student Reports
+
+- Complete Student List
+- Student Information
+- Class-wise Student Report
+
+---
+
+## 👨‍🏫 Teacher Reports
+
+- Teacher List
+- Subject Information
+- Contact Information
+
+---
+
+## 👨‍💼 Staff Reports
+
+- Staff List
+- Designation
+- Contact Information
+
+---
+
+## 📅 Attendance Reports
+
+- Student Attendance
+- Teacher Attendance
+- Staff Attendance
+- Attendance Status
+
+---
+
+## 💰 Financial Reports
+
+- Fee Collection Report
+- Student Due Report
+- Payment History
+- Collection Summary
+
+---
+
+## 📝 Examination Reports
+
+- Exam Marks Report
+- Result Summary
+- Student Result
+- Academic Performance
+
+---
+
+# 📄 CSV Export
+
+Reports CSV format-এ Export করা যাবে।
+
+সমর্থিত Data:
+
+- Students
+- Teachers
+- Staff
 - Attendance
-- Examination
-- Result Management
-- Fees Management
-- Guardian Management
-- ID Card Management
-- Timetable
-- Notices
-- Reports
-- School Administration
-
-Software-এর অনুমোদিত উদ্দেশ্যের বাইরে ব্যবহার করা হলে Developer-এর অনুমতি প্রয়োজন হতে পারে।
+- Fees
+- Due
+- Payments
+- Marks
+- Results
 
 ---
 
-# ৬. 🚫 নিষিদ্ধ কার্যক্রম
+# 📊 Excel Export
 
-**Nayem Ahammad-এর লিখিত অনুমতি ছাড়া নিম্নলিখিত কাজ নিষিদ্ধ:**
+Excel `.xlsx` Export:
 
-### ❌ Copy
-
-Software-এর Source Code বা মূল Software কপি করা যাবে না।
-
-### ❌ Resale
-
-Software অন্য ব্যক্তির কাছে বিক্রি করা যাবে না।
-
-### ❌ Redistribution
-
-Software-এর কপি অন্য ব্যক্তি বা প্রতিষ্ঠানের কাছে বিতরণ করা যাবে না।
-
-### ❌ Public Publication
-
-Source Code বা Software Public Repository-তে প্রকাশ করা যাবে না।
-
-উদাহরণ:
-
-- GitHub
-- GitLab
-- Bitbucket
-- Public Website
-- Public File Sharing Platform
-
-### ❌ Ownership Claim
-
-Software নিজের তৈরি বা নিজের মালিকানাধীন বলে দাবি করা যাবে না।
-
-### ❌ Rebranding
-
-Software-এর নাম, Logo বা Branding পরিবর্তন করে নিজের Product হিসেবে প্রকাশ করা যাবে না।
-
-### ❌ Sublicensing
-
-অন্য ব্যক্তিকে Software ব্যবহারের License প্রদান করা যাবে না।
-
----
-
-# ৭. 🧑‍💻 Source Code Protection
-
-Source Code এই Project-এর অন্যতম গুরুত্বপূর্ণ Intellectual Property।
-
-Source Code:
-
-- Public করা যাবে না
-- বিক্রি করা যাবে না
-- অন্য Project-এ ব্যবহার করা যাবে না
-- অন্য Developer-এর কাছে দেওয়া যাবে না
-- Public Repository-তে Upload করা যাবে না
-- Commercial Product-এ ব্যবহার করা যাবে না
-
-যদি Developer লিখিতভাবে Source Code License প্রদান করেন, তাহলে সেই আলাদা Agreement-এর শর্ত প্রযোজ্য হবে।
-
----
-
-# ৮. 🛠️ Software Modification
-
-অনুমোদিত ব্যবহারকারী নিজের প্রতিষ্ঠানের অভ্যন্তরীণ প্রয়োজন অনুযায়ী Software পরিবর্তন করতে পারলে সেই পরিবর্তনের অধিকার শুধুমাত্র অনুমোদিত ব্যবহারের মধ্যে সীমাবদ্ধ থাকবে।
-
-কোনো Modified Version:
-
-- বিক্রি করা যাবে না
-- Public করা যাবে না
-- অন্যকে দেওয়া যাবে না
-- নিজের Product হিসেবে প্রকাশ করা যাবে না
-- Commercially Redistribute করা যাবে না
-
----
-
-# ৯. 💰 Commercial License
-
-Commercial Use-এর জন্য আলাদা License প্রয়োজন।
-
-Commercial Use-এর মধ্যে রয়েছে:
-
-- Software বিক্রি করা
-- Software ভাড়া দেওয়া
-- Software-এর মাধ্যমে Paid Service প্রদান
-- অন্য স্কুলে Software বিক্রি করা
-- Software Resell করা
-- Software-এর Modified Version বিক্রি করা
-- White-Label Software তৈরি করা
-- SaaS হিসেবে ব্যবহার করা
-- Multi-Branch Commercial Deployment
-- Enterprise Deployment
-
----
-
-# ১০. 🏢 Multi-School / Multi-Branch License
-
-একটি School License স্বয়ংক্রিয়ভাবে একাধিক প্রতিষ্ঠানে ব্যবহার করা যাবে না।
-
-যেমন:
-
-```text
-School A  → Licensed
-School B  → Separate License Required
-School C  → Separate License Required
-Branch 2  → Additional License Required
-Branch 3  → Additional License Required
+```bash
+pip install openpyxl
 ```
 
-Multi-School বা Multi-Branch ব্যবহারের জন্য Enterprise বা Multi-Installation License নেওয়া যেতে পারে।
+Excel Export করা যাবে:
+
+- Student Report
+- Teacher Report
+- Staff Report
+- Attendance
+- Fee Collection
+- Payment History
+- Exam Marks
+- Results
 
 ---
 
-# ১১. 🎨 UI, Graphics & Assets
+# 🖨️ Print-ready Reports
 
-Project-এর Original Assets-এর মধ্যে রয়েছে:
+Print-ready View:
 
-- Application Logo
-- School Logo Templates
-- SVG Icons
-- UI Graphics
-- Dashboard Design
-- ID Card Templates
-- Receipt Templates
-- Report Templates
-- Images
-- Fonts
-- Visual Components
-
-এসব Developer-এর অনুমতি ছাড়া অন্য Software বা Commercial Project-এ ব্যবহার করা যাবে না।
+- Student Reports
+- Attendance Reports
+- Financial Reports
+- Exam Reports
+- Result Reports
 
 ---
 
-# ১২. 🏷️ Branding
+# 💾 Database Backup
 
-**Offline School Management System** নাম, Logo, Branding এবং অন্যান্য পরিচয় এমনভাবে ব্যবহার করা যাবে না যাতে মনে হয় কোনো ব্যক্তি বা প্রতিষ্ঠান Developer-এর Official Partner, Owner বা Authorized Distributor।
-
-Developer লিখিতভাবে অনুমতি দিলে Branding পরিবর্তনের শর্ত আলাদাভাবে নির্ধারণ করা যেতে পারে।
-
----
-
-# ১৩. 📦 Third-Party Components
-
-Software-এ ব্যবহৃত Third-Party Software, Library, Framework, Font, Icon বা Package তাদের নিজ নিজ License-এর অধীন থাকবে।
-
-এই License কোনো Third-Party License বাতিল বা পরিবর্তন করে না।
-
-ব্যবহারকারীকে প্রযোজ্য Third-Party License-এর শর্ত মেনে চলতে হবে।
-
----
-
-# ১৪. 🔐 School Data Ownership
-
-School কর্তৃক Software-এ সংরক্ষিত Data, যেমন:
-
-- Student Data
-- Teacher Data
-- Guardian Data
-- Attendance Data
-- Exam Data
-- Result Data
-- Fee Data
-- School Records
-
-সাধারণভাবে সেই School/Organization-এর Data হিসেবে থাকবে।
-
-Developer এই Data-এর মালিকানা দাবি করেন না, যদি না কোনো পৃথক Agreement-এ অন্যভাবে উল্লেখ থাকে।
-
----
-
-# ১৫. 🔒 Data Security Responsibility
-
-Software ব্যবহারকারী প্রতিষ্ঠান তাদের Data নিরাপদ রাখার জন্য দায়ী।
-
-এর মধ্যে রয়েছে:
-
-- User Account Security
-- Password Protection
-- Access Control
-- Computer Security
-- Database Security
-- Backup
-- Authorized User Management
-
----
-
-# ১৬. 💾 Backup Policy
-
-Software যেহেতু Offline System, তাই ব্যবহারকারীকে নিয়মিত Backup নেওয়ার পরামর্শ দেওয়া হচ্ছে।
-
-Backup রাখা যেতে পারে:
+Database Backup তৈরি করা যাবে:
 
 ```text
-Backups/
-├── Daily/
-├── Weekly/
-├── Monthly/
-└── Emergency/
+school_backup_YYYYMMDD_HHMMSS.db
 ```
 
-Developer নিম্নলিখিত কারণে Data Loss-এর জন্য দায়ী নন:
+Backup ব্যবহার করে:
 
-- Hardware Failure
-- Hard Disk Failure
-- Database Corruption
-- Accidental Deletion
-- Operating System Failure
-- Malware
-- Unauthorized Modification
-- User Error
-- Improper Backup
+- Data নিরাপদ রাখা
+- নতুন Computer-এ Data Transfer
+- জরুরি Data Recovery
 
 ---
 
-# ১৭. ⚠️ Warranty Disclaimer
+# ♻️ Database Restore
 
-Software:
+Backup Database থেকে:
 
-> **"AS IS" এবং "AS AVAILABLE"**
+- Database Restore
+- Old Data Recovery
+- System Data Recovery
 
-ভিত্তিতে প্রদান করা হচ্ছে।
-
-Developer নিশ্চয়তা দিচ্ছেন না যে Software:
-
-- সম্পূর্ণ Bug-Free হবে
-- সব Computer-এ কাজ করবে
-- সব Operating System-এ কাজ করবে
-- সব Hardware Configuration সমর্থন করবে
-- সব সময় Available থাকবে
-- ভবিষ্যতের সব OS Version-এর সঙ্গে Compatible থাকবে
+⚠️ Restore করার আগে বর্তমান Database Backup নেওয়ার পরামর্শ দেওয়া হয়।
 
 ---
 
-# ১৮. ⚖️ Limitation of Liability
+# 🔍 Database Integrity Check
 
-প্রযোজ্য আইনের সর্বোচ্চ সীমার মধ্যে Developer নিম্নলিখিত ক্ষতির জন্য দায়ী থাকবেন না:
+SQLite Database-এর Integrity পরীক্ষা করা যাবে।
 
-- Data Loss
-- Financial Loss
-- Business Loss
-- Loss of Profit
-- Hardware Damage
-- Database Failure
-- Business Interruption
-- Software Downtime
-- Unauthorized Modification-এর কারণে ক্ষতি
+এটি Database সমস্যা শনাক্ত করতে সাহায্য করবে।
 
 ---
 
-# ১৯. 🔄 Updates
+# 🎓 Certificate System
 
-Developer ভবিষ্যতে Software-এর:
+নিম্নলিখিত Certificate তৈরি করা যাবে:
 
-- Bug Fix
-- Security Update
-- Performance Improvement
-- New Feature
-- UI Improvement
-- Database Improvement
+- Character Certificate
+- Transfer Certificate
+- Testimonial
+- Academic Certificate
 
-প্রকাশ করতে পারেন।
+Certificate-এ থাকবে:
 
-তবে কোনো License-এ আলাদাভাবে উল্লেখ না থাকলে Lifetime Update বাধ্যতামূলক নয়।
-
----
-
-# ২০. 🛠️ Technical Support
-
-Free Technical Support এই License-এর স্বয়ংক্রিয় অংশ নয়।
-
-প্রয়োজনে আলাদা:
-
-- Support Agreement
-- Maintenance Agreement
-- Commercial Agreement
-- Enterprise Agreement
-
-এর মাধ্যমে Support প্রদান করা যেতে পারে।
+- Student Name
+- Student ID
+- Class
+- Section
+- Issue Date
+- School Signature Area
 
 ---
 
-# ২১. 🔴 License Termination
+# 📊 Complete Feature Summary
 
-ব্যবহারকারী License-এর গুরুত্বপূর্ণ শর্ত লঙ্ঘন করলে License বাতিল হতে পারে।
-
-License বাতিল হলে ব্যবহারকারীকে:
-
-- Software ব্যবহার বন্ধ করতে হবে
-- Unauthorized Copy মুছে ফেলতে হবে
-- Distribution বন্ধ করতে হবে
-- Resale বন্ধ করতে হবে
-- Public Source Code বন্ধ/সরিয়ে ফেলতে হবে
-- Unauthorized Modified Version ব্যবহার বন্ধ করতে হবে
-
----
-
-# ২২. 📜 No Ownership Transfer
-
-এই License-এর মাধ্যমে কোনো ব্যবহারকারীর কাছে নিম্নলিখিত অধিকার Transfer হয় না:
-
-- Copyright
-- Source Code Ownership
-- Intellectual Property
-- Branding Ownership
-- UI/UX Ownership
-- Asset Ownership
-- Trademark Rights
-
-এসব অধিকার Developer-এর কাছেই থাকবে, যদি না পৃথক লিখিত Agreement-এর মাধ্যমে অন্যথা নির্ধারণ করা হয়।
-
----
-
-# ২৩. 🌐 Open Source Status
-
-এই Project:
-
-## ❌ OPEN SOURCE নয়
-
-এটি:
-
-## 🔐 PROPRIETARY / CLOSED SOURCE SOFTWARE
-
-Developer ভবিষ্যতে কোনো নির্দিষ্ট Version Open Source License-এর অধীনে প্রকাশ করলে শুধুমাত্র সেই Version তার নতুন License অনুযায়ী পরিচালিত হবে।
-
----
-
-# ২৪. 🤝 Special Permission
-
-Developer বিশেষ ক্ষেত্রে লিখিত অনুমতি দিতে পারেন:
-
-- Commercial Deployment
-- Source Code Access
-- Redistribution
-- White-Label Deployment
-- Multi-School Deployment
-- Multi-Branch Deployment
-- Enterprise License
-- Custom Development
-- Reseller License
-- Partnership
-
-এই অনুমতি শুধুমাত্র লিখিত Agreement-এ উল্লেখিত সীমার মধ্যে কার্যকর হবে।
+```text
+Offline School Management System
+│
+├── 🔐 Authentication
+│
+├── 👨‍🎓 Student Management
+│   ├── Add
+│   ├── Edit
+│   ├── Delete
+│   ├── Search
+│   └── Photo
+│
+├── 👨‍🏫 Teacher Management
+│
+├── 👨‍💼 Staff Management
+│
+├── 📅 Attendance
+│   ├── Students
+│   ├── Teachers
+│   └── Staff
+│
+├── 💰 Fees & Payment
+│   ├── Monthly Fee
+│   ├── Admission Fee
+│   ├── Exam Fee
+│   ├── Due
+│   ├── Payment
+│   └── Receipt
+│
+├── 📝 Examination
+│   ├── Exam
+│   ├── Subjects
+│   ├── Marks
+│   ├── Grade
+│   ├── GPA
+│   └── Result
+│
+├── 📊 Reports
+│
+├── 📄 CSV Export
+│
+├── 📊 Excel Export
+│
+├── 🖨️ Print-ready Reports
+│
+├── 💾 Backup & Restore
+│
+└── 🎓 Certificate System
+```
 
 ---
 
-# ২৫. 📞 Licensing Contact
+# ▶️ Installation
 
-Commercial License, Enterprise License, Redistribution Permission অথবা অন্যান্য Licensing বিষয়ে যোগাযোগ:
+## 1. Python Install করুন
 
-### 👨‍💻 Developer
+Python 3 install করুন।
+
+Python Version check:
+
+```bash
+python --version
+```
+
+অথবা Windows-এ:
+
+```bash
+py --version
+```
+
+---
+
+## 2. Project Folder Open করুন
+
+```bash
+cd School_Management_System
+```
+
+---
+
+## 3. Optional Excel Support Install করুন
+
+```bash
+pip install openpyxl
+```
+
+---
+
+## 4. Application Run করুন
+
+```bash
+python main.py
+```
+
+Windows:
+
+```bash
+py main.py
+```
+
+---
+
+# 🔐 Default Login
+
+```text
+Username: admin
+Password: admin123
+```
+
+⚠️ প্রথম Login-এর পরে নিরাপত্তার জন্য Password পরিবর্তন করার পরামর্শ দেওয়া হচ্ছে।
+
+---
+
+# 💾 Database
+
+এই Project SQLite ব্যবহার করে।
+
+Database সম্পূর্ণ Offline-এ কাজ করে।
+
+```text
+database/
+└── school.db
+```
+
+Internet Connection প্রয়োজন নেই।
+
+---
+
+# 🔒 Security
+
+বর্তমান System-এ:
+
+- User Authentication
+- Login System
+- User Management
+- Activity Logging
+- Active / Inactive Users
+- Database Backup
+- Database Restore
+
+Production version-এ আরও যোগ করা যেতে পারে:
+
+- Password Hashing
+- Advanced Role Permissions
+- Module Permissions
+- Login History
+- Session Management
+
+---
+
+# 📦 Windows EXE Build
+
+PyInstaller ব্যবহার করে `.exe` তৈরি করা যাবে।
+
+Install:
+
+```bash
+pip install pyinstaller
+```
+
+Build:
+
+```bash
+pyinstaller --noconfirm --onefile --windowed --name "School Management System" main.py
+```
+
+Icon সহ:
+
+```bash
+pyinstaller --noconfirm --onefile --windowed --icon=assets/icon.ico --name "School Management System" main.py
+```
+
+Build File:
+
+```text
+dist/
+└── School Management System.exe
+```
+
+---
+
+# 🖥️ Professional Windows Installer
+
+Professional Installer তৈরির জন্য:
+
+- PyInstaller
+- Inno Setup 6
+
+ব্যবহার করা যেতে পারে।
+
+Installer-এ থাকবে:
+
+```text
+School Management System Setup.exe
+│
+├── Install Application
+├── Start Menu Shortcut
+├── Desktop Shortcut
+└── Uninstaller
+```
+
+---
+
+# 🔮 Future Development
+
+পরবর্তী Phase-এ যোগ করা যেতে পারে:
+
+## Phase 6 — School Operations & Communication
+
+- 👨‍👩‍👧 Parent / Guardian Management
+- 🪪 Student ID Card
+- 🔳 QR Code
+- 📢 Notice Management
+- 🔔 Internal Notification
+- 📅 Academic Calendar
+- 🕒 Timetable Management
+- 🏥 Student Health Information
+- 🏆 Student Awards
+- 🏃 Events & Activities
+- 🔐 Advanced User Permissions
+- 📝 Advanced Activity Logs
+- 🇧🇩 Bangladesh School Support
+- 📊 Final Dashboard Integration
+
+---
+
+# 🗺️ Development Roadmap
+
+```text
+Phase 1
+Foundation System
+        ↓
+Phase 2
+Student + Teacher + Staff + Attendance
+        ↓
+Phase 3
+Fees & Payment Management
+        ↓
+Phase 4
+Examination & Result Management
+        ↓
+Phase 5
+Reports + Export + Backup + Certificates
+        ↓
+Phase 6
+School Operations & Communication
+```
+
+---
+
+# 👨‍💻 Developer
 
 **Nayem Ahammad**
 
-**Project:** Offline School Management System
+---
 
-**License:** Proprietary / Closed Source
+# 📜 License
 
-**Copyright:** © 2026 Nayem Ahammad
+Copyright © 2026 Nayem Ahammad.
+
+All Rights Reserved.
+
+This software, including its source code, database structure, documentation, user interface, graphics, assets and related materials, is protected by copyright law.
+
+Unauthorized copying, modification, redistribution, resale, reverse engineering, or commercial use without written permission from the copyright holder is prohibited.
+
+See the `LICENSE` file for complete license information.
 
 ---
 
-# ২৬. 🇧🇩 সহজ ভাষায় লাইসেন্সের মূল কথা
-
-এই License-এর সহজ অর্থ:
-
-> **এই Software Nayem Ahammad-এর তৈরি এবং মালিকানাধীন।**
-
-> **কেউ অনুমতি নিয়ে Software ব্যবহার করতে পারবে, কিন্তু Software-এর মালিক হয়ে যাবে না।**
-
-> **অনুমতি ছাড়া Software কপি, বিক্রি, প্রকাশ, Redistribute, Rebrand বা Commercially ব্যবহার করা যাবে না।**
-
-> **Source Code, UI, Graphics, Icons, Templates এবং Original Assets অন্য Project-এ ব্যবহার করা যাবে না।**
-
-> **একটি School-এর License স্বয়ংক্রিয়ভাবে অন্য School বা Branch-এ প্রযোজ্য হবে না।**
-
-> **Commercial, Multi-School, Multi-Branch অথবা Reseller ব্যবহারের জন্য আলাদা License প্রয়োজন।**
-
----
-
-# ⚠️ ২৭. গুরুত্বপূর্ণ আইনি ঘোষণা
-
-এই License একটি **Software License Template** হিসেবে প্রস্তুত করা হয়েছে। এটি কোনো নির্দিষ্ট দেশের আইনজীবীর তৈরি বা আইনগত পরামর্শ হিসেবে বিবেচিত নয়।
-
-Commercial Distribution, Enterprise Licensing, Reseller Agreement অথবা বড় পরিসরে Software বিক্রির আগে প্রযোজ্য স্থানীয় আইন অনুযায়ী একজন যোগ্য আইনজীবীর মাধ্যমে License review করানো উত্তম।
-
----
-
-# 🏁 FINAL COPYRIGHT
+# ⭐ Project Status
 
 ```text
-╔════════════════════════════════════════════════════════╗
-║                                                        ║
-║             OFFLINE SCHOOL MANAGEMENT SYSTEM           ║
-║                                                        ║
-║        Proprietary / Closed Source Software            ║
-║                                                        ║
-║        Copyright © 2026 Nayem Ahammad                  ║
-║               All Rights Reserved                      ║
-║                                                        ║
-╚════════════════════════════════════════════════════════╝
+████████████████████████████░░
+
+Phase 1  ✅ Complete
+Phase 2  ✅ Complete
+Phase 3  ✅ Complete
+Phase 4  ✅ Complete
+Phase 5  ✅ Complete
+Phase 6  🚧 Planned
 ```
 
-### © 2026 Nayem Ahammad
-### All Rights Reserved.
+---
 
-**Offline School Management System**  
-*Professional • Offline • Secure • Reliable School Administration*
+## 🏫 Offline School Management System
+
+### **A Professional, Secure & Modern School Management Solution**
+
+**Built with ❤️ using Python & SQLite**
+
+**© 2026 Nayem Ahammad. All Rights Reserved.**
