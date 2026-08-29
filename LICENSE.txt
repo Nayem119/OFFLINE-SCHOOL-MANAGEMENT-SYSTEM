@@ -1,0 +1,391 @@
+OFFLINE SCHOOL MANAGEMENT SYSTEM
+PROFESSIONAL PROPRIETARY SOFTWARE LICENSE
+
+License Type: Proprietary / Closed Source
+License Version: 1.0.1
+Copyright: © 2026 Nayem Ahammad
+Status: All Rights Reserved
+
+
+LICENSE OVERVIEW
+
+Offline School Management System is a professional, proprietary, and closed-source desktop software application.
+
+This software is developed and owned by Nayem Ahammad.
+
+This License does not grant any person or organization ownership of the Software. An authorized user receives only a limited right to use the Software according to the terms and conditions of this License.
+
+
+1. COPYRIGHT & OWNERSHIP
+
+The copyright holder and owner of this Software is Nayem Ahammad.
+
+Copyright © 2026 Nayem Ahammad.
+All Rights Reserved.
+
+Receiving permission to use the Software does not mean receiving ownership of the Software.
+
+This License does not transfer copyright, source code ownership, intellectual property rights, branding ownership, UI/UX ownership, or original asset ownership.
+
+
+2. SOFTWARE LICENSE GRANT
+
+The Developer may grant authorized individuals or organizations a limited right to use the Software.
+
+License types may include:
+- Personal License
+- School License
+- Institutional License
+- Commercial License
+- Enterprise License
+- Multi-Branch License
+- Custom License
+
+The permitted number of computers, devices, users, schools, or branches may be determined separately under the applicable license agreement.
+
+
+3. SCHOOL LICENSE
+
+A School License is generally provided for the internal use of a specific educational institution.
+
+Example:
+
+School Name: Example High School
+License Type: School License
+Authorized Institution: Example High School
+Authorized Installation: As specified in the agreement
+
+A School License does not automatically authorize use by another school, institution, company, branch, franchise, or third party.
+
+
+4. SOFTWARE INSTALLATION
+
+The Software may only be installed and used on the number of computers or devices permitted by the applicable License.
+
+Additional use on another computer, school, branch, or office may require additional permission or licensing.
+
+The License System, Activation, Authentication, Access Control, and Security Protection may not be intentionally bypassed, disabled, removed, or tampered with.
+
+
+5. PERMITTED USE
+
+Authorized users may use the Software for lawful school administration purposes, including:
+
+- Student Management
+- Teacher Management
+- Class Management
+- Subject Management
+- Section Management
+- Attendance
+- Examination
+- Result Management
+- Fees Management
+- Guardian Management
+- Student ID Cards
+- Timetable Management
+- Notice Management
+- Reports
+- School Administration
+
+
+6. PROHIBITED ACTIVITIES
+
+Without prior written permission from the Developer, the following activities are prohibited:
+
+COPYING
+The Software, Source Code, or proprietary components may not be copied without authorization.
+
+RESALE
+The Software may not be sold, rented, leased, or commercially transferred without authorization.
+
+REDISTRIBUTION
+Copies of the Software may not be distributed to unauthorized persons or organizations.
+
+PUBLICATION
+The Software or Source Code may not be publicly published on GitHub, GitLab, Bitbucket, public websites, public file-sharing platforms, or public forums.
+
+FALSE OWNERSHIP CLAIMS
+No person may claim that they created, own, or independently developed this Software without authorization.
+
+REBRANDING
+The Software's name, logo, branding, or UI identity may not be changed and presented as another product without written permission.
+
+SUBLICENSING
+Users may not grant another person or organization the right to use the Software without authorization.
+
+
+7. SOURCE CODE PROTECTION
+
+The Source Code of this Software is an important proprietary asset.
+
+Without written permission, the Source Code may not be:
+- Made public
+- Sold
+- Distributed
+- Shared with unauthorized third parties
+- Uploaded to a public repository
+- Used in another Software project
+- Used to develop another commercial product
+
+
+8. SOFTWARE MODIFICATION & CUSTOMIZATION
+
+Without written permission from the Developer, a modified version may not be:
+- Sold
+- Distributed
+- Publicly released
+- Presented as an independently owned product
+- Commercially redistributed
+
+Ownership and usage rights for custom development may be determined through a separate written agreement.
+
+
+9. COMMERCIAL LICENSE
+
+Commercial use may require a separate Commercial License.
+
+Commercial use may include:
+- Selling the Software
+- Renting or leasing the Software
+- Providing paid services using the Software
+- Selling the Software to other schools
+- Acting as a reseller
+- Selling modified versions
+- Creating a White-Label version
+- Using the Software as SaaS
+- Enterprise Deployment
+- Multi-Branch Deployment
+
+Possession of a copy of the Software does not automatically grant commercial usage rights.
+
+
+10. MULTI-SCHOOL & MULTI-BRANCH LICENSE
+
+A single School License does not automatically apply to multiple Schools or Branches.
+
+Example:
+
+School A  -> Licensed
+School B  -> Separate License Required
+School C  -> Separate License Required
+Branch 2  -> Additional Permission Required
+Branch 3  -> Additional Permission Required
+
+
+11. UI, GRAPHICS & ASSETS
+
+Original assets of the Software may include:
+- Application Logo
+- SVG Icons
+- UI Graphics
+- Dashboard Design
+- ID Card Templates
+- Receipt Templates
+- Report Templates
+- Original Images
+- Visual Components
+- Documentation
+
+These materials may not be reused in another Software product or commercial project without permission from the Developer.
+
+
+12. BRANDING
+
+The name Offline School Management System, its Logo, and its Branding may not be used in a way that falsely suggests that another person or organization is the Owner, an Official Partner, an Official Distributor, or an Authorized Seller.
+
+
+13. THIRD-PARTY COMPONENTS
+
+The Software may use third-party libraries, frameworks, fonts, icons, or packages.
+
+These components remain subject to their respective licenses. This License does not cancel, modify, or replace any applicable third-party license.
+
+
+14. SCHOOL DATA OWNERSHIP
+
+Data entered or stored by a School may include Student Data, Teacher Data, Guardian Data, Attendance Data, Examination Data, Result Data, Fee Data, and School Records.
+
+Unless otherwise stated in a separate written agreement, such operational data generally remains the property of the relevant School or Organization.
+
+The Developer does not become the owner of School Data merely because the Software stores or processes that Data.
+
+
+15. DATA SECURITY
+
+The School or Organization is responsible for maintaining the security of its own Data.
+
+This includes:
+- Strong Passwords
+- User Account Security
+- Access Permissions
+- Computer Security
+- Operating System Security
+- Database Security
+- Regular Backups
+- Authorized User Management
+
+
+16. BACKUP POLICY
+
+Because this is an Offline Software, regular backups are strongly recommended.
+
+The Developer is generally not responsible, to the maximum extent permitted by applicable law, for Data Loss caused by:
+- Hardware Failure
+- Storage Failure
+- Database Corruption
+- Accidental Deletion
+- Operating System Failure
+- Virus or Malware
+- Unauthorized Modification
+- User Error
+- Failure to Maintain Backups
+- Computer Theft or Physical Damage
+
+
+17. WARRANTY DISCLAIMER
+
+To the maximum extent permitted by applicable law, the Software is provided:
+
+"AS IS" and "AS AVAILABLE".
+
+The Developer does not guarantee that the Software will:
+- Be completely Bug-Free
+- Work on every Computer
+- Work on every Operating System
+- Support every Hardware Configuration
+- Be available at all times
+- Remain compatible with every future Operating System Version
+
+
+18. LIMITATION OF LIABILITY
+
+To the maximum extent permitted by applicable law, the Developer may not be liable for:
+- Data Loss
+- Financial Loss
+- Business Loss
+- Loss of Profit
+- Business Interruption
+- Hardware Damage
+- Database Failure
+- Software Downtime
+- Damage caused by Unauthorized Modification
+
+Nothing in this License is intended to exclude liability that cannot legally be excluded.
+
+
+19. SOFTWARE UPDATES
+
+The Developer may release:
+- Bug Fixes
+- Security Updates
+- Performance Improvements
+- New Features
+- UI Improvements
+- Database Improvements
+- Compatibility Updates
+
+Unless otherwise specified in a separate agreement, Lifetime Updates are not guaranteed.
+
+
+20. TECHNICAL SUPPORT
+
+Technical Support is not automatically included with this License unless specifically stated.
+
+Separate services may include:
+- Technical Support
+- Maintenance
+- Bug Fixing
+- Data Migration
+- Custom Development
+- Training
+- Deployment Assistance
+- Enterprise Support
+
+
+21. LICENSE TERMINATION
+
+The License may be terminated in accordance with applicable law and any relevant agreement if the user materially violates important License terms.
+
+Upon termination, the user may be required to:
+- Stop Unauthorized Use
+- Stop Software Distribution
+- Remove Unauthorized Copies
+- Stop Resale
+- Stop Using Unauthorized Modified Versions
+- Remove Publicly Published Proprietary Source Code
+
+
+22. NO TRANSFER OF OWNERSHIP
+
+This License does not transfer:
+- Copyright
+- Source Code Ownership
+- Intellectual Property Rights
+- Branding Ownership
+- UI/UX Ownership
+- Asset Ownership
+- Trademark Rights
+
+
+23. OPEN SOURCE STATUS
+
+THIS PROJECT IS NOT OPEN SOURCE.
+
+It is Proprietary / Closed Source Software.
+
+This License does not grant Open Source rights.
+
+
+24. SPECIAL PERMISSION
+
+The Developer may grant written permission for:
+- Commercial Deployment
+- Source Code Access
+- Redistribution
+- White-Label Deployment
+- Multi-School Deployment
+- Multi-Branch Deployment
+- Enterprise Licensing
+- Custom Development
+- Reseller Licensing
+- Partnership
+
+
+25. PRIVACY & CONFIDENTIALITY
+
+This License does not automatically grant the Developer access to confidential School information.
+
+Where Technical Support requires access to information, only the information reasonably necessary for the support request should be used.
+
+
+26. DATA EXPORT
+
+Where Data Export functionality is available, the School may export its own authorized operational Data.
+
+However, Data Export does not grant the right to copy Source Code, Database Design, UI Design, Program Logic, Graphics, Templates, or other proprietary components.
+
+
+27. IMPORTANT LEGAL NOTICE
+
+This document is intended as a Professional Proprietary Software License Template.
+
+It is not a substitute for legal advice from a qualified lawyer.
+
+Before large-scale commercial distribution, enterprise licensing, reseller agreements, source-code licensing, or significant Software sales, the License should be reviewed by a qualified legal professional under the applicable local laws.
+
+
+FINAL COPYRIGHT NOTICE
+
+==============================================================
+OFFLINE SCHOOL MANAGEMENT SYSTEM
+
+PROPRIETARY / CLOSED SOURCE SOFTWARE
+
+Copyright © 2026 Nayem Ahammad
+All Rights Reserved
+
+Professional • Offline • Secure • Reliable
+School Administration System
+==============================================================
+
+Unauthorized copying, redistribution, resale, rebranding, public publication, or commercial deployment is prohibited without prior written permission.
